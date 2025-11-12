@@ -1,9 +1,9 @@
 package main
 
 import (
-	d1 "dsa-training/day_1"
+	d2 "dsa-training/day_2"
 )
 
 func main() {
-	d1.SeatBooking()
+	d2.DynamicArrayImplementation()
 }
