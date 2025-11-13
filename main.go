@@ -1,9 +1,9 @@
 package main
 
 import (
-	d2 "dsa-training/day_2"
+	d3 "dsa-training/day_3"
 )
 
 func main() {
-	d2.DynamicArrayImplementation()
+	d3.MusicPlayer()
 }
