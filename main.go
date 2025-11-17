@@ -1,12 +1,9 @@
 package main
 
 import (
-	d5 "dsa-training/day_5"
-	"dsa-training/heap"
+	d6_7 "dsa-training/day_6_7"
 )
 
 func main() {
-	heap.MinHeap()
-	heap.MaxHeap()
-	d5.HashMap()
+	d6_7.ChatApp()
 }
