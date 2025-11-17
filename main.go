@@ -1,13 +1,9 @@
 package main
 
 import (
-	ll "dsa-training/linked_list"
-	"dsa-training/queue"
-	"dsa-training/stack"
+	d2 "dsa-training/day_2"
 )
 
 func main() {
-	ll.LinkedList()
-	stack.Stack()
-	queue.Queue()
+	d2.DynamicArrayImplementation()
 }
