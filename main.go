@@ -1,9 +1,13 @@
 package main
 
 import (
-	d1 "dsa-training/day_1"
+	ll "dsa-training/linked_list"
+	"dsa-training/queue"
+	"dsa-training/stack"
 )
 
 func main() {
-	d1.SeatBooking()
+	ll.LinkedList()
+	stack.Stack()
+	queue.Queue()
 }
