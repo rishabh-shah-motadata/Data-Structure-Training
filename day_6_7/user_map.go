@@ -16,8 +16,8 @@ type userHashMap struct {
 	size    int
 }
 
-func newUserHashMap() *userHashMap {
-	return &userHashMap{
+func newUserHashMap() userHashMap {
+	return userHashMap{
 		buckets: make([]bucket, 8),
 		size:    0,
 	}

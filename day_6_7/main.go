@@ -5,11 +5,11 @@ import (
 )
 
 type chatApp struct {
-	users     *userHashMap
-	status    *statusArray
-	history   *messageHistory
-	queue     *messageQueue
-	undo      *undoStack
+	users     userHashMap
+	status    statusArray
+	history   messageHistory
+	queue     messageQueue
+	undo      undoStack
 	userCount int
 }
 
@@ -17,9 +17,9 @@ func newChatApp() *chatApp {
 	return &chatApp{
 		users:     newUserHashMap(),
 		status:    newStatusArray(2),
-		history:   &messageHistory{},
-		queue:     &messageQueue{},
-		undo:      &undoStack{},
+		history:   messageHistory{},
+		queue:     messageQueue{},
+		undo:      undoStack{},
 		userCount: 0,
 	}
 }
