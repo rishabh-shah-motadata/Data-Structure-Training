@@ -34,7 +34,7 @@ func CartSystem() {
 	cart.display()
 	cart.total(discounts.items)
 
-	fmt.Println("\nRemoving item 106...")
+	fmt.Println("\nRemoving item 106")
 	cart.remove("106")
 
 	fmt.Println("\nUpdated Cart:")
@@ -49,7 +49,7 @@ func CartSystem() {
 	discounts.display()
 	cart.total(discounts.items)
 
-	fmt.Println("\nRemoving discount for item 101...")
+	fmt.Println("\nRemoving discount for item 101")
 	discounts.remove("101")
 	cart.total(discounts.items)
 
@@ -64,7 +64,7 @@ func CartSystem() {
 	fmt.Println("\nWishlist:")
 	wishlist.display()
 
-	fmt.Println("\nRemoving item 202 from wishlist...")
+	fmt.Println("\nRemoving item 202 from wishlist")
 	wishlist.remove("202")
 
 	fmt.Println("\nUpdated Wishlist:")
